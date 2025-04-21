@@ -20,9 +20,9 @@ interface TeamMember {
 
 const teamMembers: TeamMember[] = [
   {
-    name: "Alex Johnson",
+    name: "Shivani",
     role: "Lead Developer",
-    bio: "Alex specializes in geospatial data visualization and has been working with mapping technologies for over 5 years.",
+    bio: "bio.",
     image: "/placeholder.svg?height=400&width=400&text=Alex",
     social: {
       twitter: "#",
@@ -32,9 +32,9 @@ const teamMembers: TeamMember[] = [
     },
   },
   {
-    name: "Jordan Lee",
+    name: "Aaron",
     role: "UX Designer",
-    bio: "Jordan focuses on creating intuitive user experiences for complex data visualization tools and interactive maps.",
+    bio: "bio",
     image: "/placeholder.svg?height=400&width=400&text=Jordan",
     social: {
       twitter: "#",
@@ -44,9 +44,9 @@ const teamMembers: TeamMember[] = [
     },
   },
   {
-    name: "Jordan Lee",
+    name: "Deven Varu",
     role: "UX Designer",
-    bio: "Jordan focuses on creating intuitive user experiences for complex data visualization tools and interactive maps.",
+    bio: "bio.",
     image: "/placeholder.svg?height=400&width=400&text=Jordan",
     social: {
       twitter: "#",
@@ -98,7 +98,7 @@ export function AboutSection() {
       </motion.div>
 
       <motion.div className="grid grid-cols-1 md:grid-cols-3 gap-8" variants={containerVariants}>
-        {teamMembers.map((member, index) => (
+        {teamMembers.map((member) => (
           <motion.div key={member.name} variants={itemVariants}>
             <Card className="overflow-hidden h-full flex flex-col">
               <div className="aspect-square relative overflow-hidden bg-muted">

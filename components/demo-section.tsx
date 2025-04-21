@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react"
 import { motion } from "framer-motion"
-import { Play, FastForward } from "lucide-react"
+import { FastForward } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 interface DemoSectionProps {

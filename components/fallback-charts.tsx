@@ -132,7 +132,7 @@ export function FallbackChartsSection() {
       >
         <div>
           <h2 className="text-3xl font-bold mb-2">Oakland Data Insights</h2>
-          <p className="text-muted-foreground">Interactive charts and visualizations of Oakland's key metrics</p>
+          <p className="text-muted-foreground">Interactive charts and visualizations of Oakland key metrics</p>
         </div>
       </motion.div>
 

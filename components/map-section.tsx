@@ -37,7 +37,7 @@ export function MapSection() {
       >
         <div>
           <h2 className="text-3xl font-bold mb-2">Oakland Interactive Map</h2>
-          <p className="text-muted-foreground">Explore Oakland's geography, demographics, and infrastructure</p>
+          <p className="text-muted-foreground">Explore Oakland geography, demographics, and infrastructure</p>
         </div>
         <div className="flex items-center gap-2">
           <Badge variant="outline" className="bg-blue-500/10 text-blue-500 hover:bg-blue-500/20">

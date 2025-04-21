@@ -112,7 +112,6 @@ export function MenuBar({ onNavigate }: MenuBarProps) {
     const handleScroll = () => {
       const scrollPosition = window.scrollY + window.innerHeight / 3
 
-      const demoSection = document.getElementById("demo")
       const mapSection = document.getElementById("map")
       const chartsSection = document.getElementById("charts")
       const aboutSection = document.getElementById("about")
@@ -149,7 +148,7 @@ export function MenuBar({ onNavigate }: MenuBarProps) {
         variants={navGlowVariants}
       />
       <ul className="flex items-center gap-2 relative z-10">
-        {menuItems.map((item, index) => (
+        {menuItems.map((item) => (
           <motion.li key={item.label} className="relative">
             <motion.div
               className="block rounded-xl overflow-visible group relative"
